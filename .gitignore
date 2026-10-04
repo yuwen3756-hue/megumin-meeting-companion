@@ -1,0 +1,45 @@
+# Local runtimes, downloaded weights and model caches
+.venv/
+venv/
+models/
+.cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Session content, recordings, exports and validation artifacts
+data/
+artifacts/
+.delivery/
+*.wav
+*.mp3
+*.mp4
+*.m4a
+*.flac
+*.sqlite*
+*.db
+*.log
+*.zip
+
+# Weights and binary inference caches
+*.onnx
+*.safetensors
+*.pt
+*.pth
+*.bin
+
+# Secrets and personal tool configuration
+.env
+.env.*
+!.env.example
+.codex/
+.agents/
+.aws/
+AGENTS.md
+AGENTS.override.md
+auth.json
+credentials*
+*.pem
+*.key
+.DS_Store
+Thumbs.db

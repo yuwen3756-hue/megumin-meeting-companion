@@ -1,0 +1,7 @@
+-r requirements-common.txt
+faster-whisper==1.2.1
+ctranslate2==4.6.0
+# Official NVIDIA Windows runtime wheels; no toolkit, PyTorch or driver install.
+# ABI-compatible candidates; verify native loading on the actual RTX laptop.
+nvidia-cublas-cu12==12.8.4.1
+nvidia-cudnn-cu12==9.10.2.21

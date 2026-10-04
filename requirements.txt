@@ -1,0 +1,2 @@
+# Compatibility entry for Megumin (Intel); Setup.cmd auto-selects the machine.
+-r requirements-arc.txt
